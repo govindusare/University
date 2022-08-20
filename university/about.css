@@ -1,0 +1,20 @@
+/*  campus  */
+.campus .row .col{
+    width:100%;
+}
+.campus .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    min-width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #4c4c7c;
+}
+/*  campus  close     */

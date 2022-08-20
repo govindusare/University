@@ -1,0 +1,101 @@
+/*GRADUATIONS*/
+.Graduation{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/The-high-cost-of-graduation-ceremonies.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.Graduation-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Graduation-content h1 {
+ font-size: 7vmin;
+
+}
+.Graduation-content line {
+    margin-bottom: 50px;
+
+}
+.Graduation-content p {
+    color: white
+}
+.Graduation-content .ctn {
+    margin-top: 50px;
+}
+/*GRADUATIONS close*/
+
+/*POSTGRADUATIONS*/
+.PostGraduation {
+    width:100%;
+    height: 100vh;
+    background-image: url('./img/pexels-godisable-jacob-901962.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.PostGraduation-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PostGraduation-content h1 {
+ font-size: 7vmin;
+}
+.PostGraduation-content line {
+    margin: 50px;
+}
+.PostGraduation-content p {
+    color: white
+}
+.PostGraduation-content .ctn {
+    margin-top: 40px;
+}
+/*POSTGRADUATIONS close*/
+
+
+/*PHD*/
+.Phd {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/cery1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.Phd-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Phd-content h1 {
+ font-size: 7vmin;
+}
+.Phd-content line {
+    margin: 50px;
+}
+.Phd-content p {
+    color: white
+}
+.Phd-content .ctn {
+    margin-top: 50px;
+}
+/*PHD close*/

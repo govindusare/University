@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-AU-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Contact.css">
+  <title>My Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/7c9723d9bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">UNIVERSITY</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li class="active"><a class="sk-links" href="about.html">ABOUT</a></li>
+        <li class="active"><a href="course.html">COURSE</a></li>
+        <li class="active"><a href="blog.html">BLOG</a></li>
+        <li   class="ctn"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--navbar-->
+    
+    <!--header-->
+    <header>
+        <div class="header-content">
+            <h2>UNIVERSITY OF PUNE</h2>
+        <div class="line"></div>
+        <h1>World's Best University</h1> 
+        <a href="#" class="ctn">Login</a>
+        </div>
+    </header>
+    <!--header-->
+
+    <!--univercity campus-->
+
+    <section  class="univercity">
+        <div class="title">
+          <h1>Corce We Provide</h1>
+          <div class="line"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis dolorum consectetur! Tempora debitis earum iure necessitatibus ea, ullam facere dignissimos laudantium quo neque non, nemo id assumenda totam sed.</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="./img/2001.jpg" alt="" width="350px" height="250px" >
+            <h3>Grajution</h3>
+            <p>BCA , MCA , MBA , BE , B.TECH , ME,
+              M.TECH , BSC , BBA , BCS , MCS</p>
+            <a href="#" class="ctn">Learn more</a>
+          </div>
+          <div class="col">
+            <img src="./img/1.jpg" alt=""width="350px" height="250px">
+            <h3>Engenaring</h3>
+            <p>BCA , MCA , MBA , BE , B.TECH , ME,
+            M.TECH , BSC , BBA , BCS , MCS</p>
+            <a href="#" class="ctn">Learn more</a>
+          </div>
+        </div>
+    </section>
+
+        <!--univercity campus clode-->
+
+      <!--GRADUATIONS-->
+       <section class="Graduation">
+        <div class="Graduation-content">
+          <h1>GRADUATIONS</h1>
+          <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia velit dolorum esse ab inventore, debitis odit blanditiis pariatur delectus placeat aut maxime quis quisquam soluta dolore voluptatibus qui. Labore, magnam?</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- GRADUATIONS close  -->
+
+       <!--PostGraduation-->
+       <section class="PostGraduation">
+        <div class="PostGraduation-content">
+          <h1>POST  GRADUATIONS</h1>
+          <div class="line"></div>
+        <p>The first step was admission to a bachelor's degree. The second step was the masters step, giving the graduate admission to the universitas and license to teach.</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- PostGraduation close  -->
+
+       <!--PHD-->
+       <section class="Phd">
+        <div class="Phd-content">
+          <h1>P  H  D</h1>
+          <div class="line"></div>
+        <p>The first step was admission to a bachelor's degree. The second step was the masters step, giving the graduate admission to the universitas and license to teach.</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- PHD -->
+        
+       <section  class="campus">
+        <div class="row">
+          <div class="col content-col" >
+            <h1>Our Globle Campus</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in rem atque ea magni accusamus accusantium quis cum, tenetur eaque eos nemo numquam harum doloribus. Error sed veritatis eos eaque?</p>
+            <a href="#" class="ctn"> Lern More</a>
+          </div>
+          <div class="col image-col">
+               <div class="image-gallery">
+                 <img src="./img/classroom.jpg" alt="" >
+                 <img src="./img/9cantin.jpg" alt="" >
+                 <img src="./img/11labury.jpg" alt="" >
+                 <img src="./img/bulding4.jpg" alt="" >    
+               </div>
+          </div>
+        </div>
+       </section>
+
+       <!--footer-->
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Creater Of This Site<br>GOVIND USARE<br>Con.No:= 9307874563</p>
+        <div class="icons">
+           <a  href="https://www.facebook.com/govind.usare"><i class="fa-brands fa-facebook"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+        <!--footer close-->
+        
+        <!--on click event-->
+
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
+
+      menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+     }) 
+    </script>
+
+    <!--on click event close-->
+
+</body>
+</html>

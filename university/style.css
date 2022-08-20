@@ -1,0 +1,397 @@
+/* font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.active:hover {
+    color:1 #fc036b;
+    text-decoration: underline;
+    
+}
+
+body, html {
+    overflow-x: hidden;
+}   
+
+/* navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+     margin: 0 10px;
+     
+}
+li a{ 
+    color: whitesmoke;
+}
+.sk-li{
+    color: whitesmoke;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/bulding4.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+ margin-bottom: 150px;
+ color: rgb(242, 239, 245);
+ text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}   
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #fd1e92;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    margin: 7vmin;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+/* navbar close*/
+
+/*univercity campus*/
+
+section {
+       width: 80%;
+       margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(55, 53, 86);
+}
+
+.row {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(245, 225, 216, 0.715);
+    padding: 25px;
+    
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.univercity .row {
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 3vmin;
+    color: rgb(137, 59, 227);
+    margin: 20px auto;
+}
+
+p{
+    color: #5f5555;
+    padding: 20px 20px;
+}
+.univercity.ctn {
+    margin: 30px;
+}
+/*univercity campus close*/
+
+
+/*GRADUATIONS*/
+.Graduation{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/The-high-cost-of-graduation-ceremonies.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.Graduation-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Graduation-content h1 {
+ font-size: 7vmin;
+
+}
+.Graduation-content line {
+    margin-bottom: 50px;
+
+}
+.Graduation-content p {
+    color: white
+}
+.Graduation-content .ctn {
+    margin-top: 50px;
+}
+/*GRADUATIONS close*/
+
+/*POSTGRADUATIONS*/
+.PostGraduation {
+    width:100%;
+    height: 100vh;
+    background-image: url('./img/pexels-godisable-jacob-901962.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.PostGraduation-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PostGraduation-content h1 {
+ font-size: 7vmin;
+}
+.PostGraduation-content line {
+    margin: 50px;
+}
+.PostGraduation-content p {
+    color: white
+}
+.PostGraduation-content .ctn {
+    margin-top: 40px;
+}
+/*POSTGRADUATIONS close*/
+
+
+/*PHD*/
+.Phd {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/cery1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.Phd-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Phd-content h1 {
+ font-size: 7vmin;
+}
+.Phd-content line {
+    margin: 50px;
+}
+.Phd-content p {
+    color: white
+}
+.Phd-content .ctn {
+    margin-top: 50px;
+}
+/*PHD close*/
+
+
+/*  campus  */
+.campus .row .col{
+    width:100%;
+}
+.campus .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    min-width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color:black;
+}
+.campus.ctn{
+    margin-bottom:100px;
+}
+/*  campus  close     */
+
+/* footer*/
+/*----footer-----*/
+.footer{
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgb(89, 91, 91);
+}
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.icons .fa-brands{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    
+}
+.footer p{
+    color: aliceblue;
+}
+/*mobile device*/
+@media screen and (max-width: 850px){
+    .menu-btn{
+        display:block;
+    }
+    .navbar{
+        padding:0;
+        display: flex;
+     }
+    
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+     }
+     .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: #7e7edc;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+     }
+     .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+     }
+
+      /*-----*/
+     .nav-links li{
+        margin: 30px auto;
+     }
+     .row{
+    flex-direction: column;
+    }
+     .row .col{
+     margin: 20px auto;
+    }
+     .col img{
+     max-width: 90%;
+    }
+
+
+    .Graduation-content{
+        width: 100%;
+    }
+    .PostGraduation-content {
+        width: 100%;
+    }
+    .Phd-content{
+        width: 100%;
+    }
+
+
+    .content{
+    width: 100%;
+    }
+     .tours .col{
+    width: 100%;
+    }
+     .image-gallery{
+    justify-content: center;
+    align-items: center;
+    }
+     .image-gallery img{
+    width: 90%;
+    }
+    .footer{
+    padding: 10px;
+     }
+}
+   /*-----*/
+     /*mobile device close*/
+     
+/*Animation*/
+img{
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.ctn:hover {
+    background-color: rgb(184, 170, 253);
+    color: #fc036b;
+    box-shadow: 2px 2px 5px #0000004e;
+}
+li:hover {
+    color: #fc036b;
+    cursor: pointer;
+}
+.nav-li a:hover{
+    text-decoration: underline;
+}
+/*Animation close*/

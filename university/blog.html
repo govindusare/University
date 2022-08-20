@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-AU-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Course.css">
+  <link rel="stylesheet" href="Contact.css">
+  <title>My Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/7c9723d9bd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">UNIVERCETY</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a class="nav-links" href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li class="ctn"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--navbar-->
+    
+    <!--header-->
+    <header class="abd">
+        <div class="header-content">
+            <h2>BLOG</h2>
+        <div class="line"></div>
+        <h1>Info of University</h1> 
+       
+        </div>
+    </header>
+    <!--header-->
+
+      <!--GRADUATIONS-->
+      <section class="Graduation">
+        <div class="Graduation-content">
+          <h1>GRADUATIONS</h1>
+          <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia velit dolorum esse ab inventore, debitis odit blanditiis pariatur delectus placeat aut maxime quis quisquam soluta dolore voluptatibus qui. Labore, magnam?</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- GRADUATIONS close  -->
+
+       <!--PostGraduation-->
+       <section class="PostGraduation">
+        <div class="PostGraduation-content">
+          <h1>POST  GRADUATIONS</h1>
+          <div class="line"></div>
+        <p>The first step was admission to a bachelor's degree. The second step was the masters step, giving the graduate admission to the universitas and license to teach.</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- PostGraduation close  -->
+
+       <!--PHD-->
+       <section class="Phd">
+        <div class="Phd-content">
+          <h1>P  H  D</h1>
+          <div class="line"></div>
+        <p>The first step was admission to a bachelor's degree. The second step was the masters step, giving the graduate admission to the universitas and license to teach.</p>
+        <a href="#" class="ctn">lurn more</a>
+        </div>
+       </section>
+       <!-- PHD close-->
+        
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Creater Of This Site<br>GOVIND USARE<br>Con.No:= 9307874563</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+            <!--footer close-->
+        <!--on click event-->
+
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
+
+      menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+     }) 
+    </script>
+
+    <!--on click event close-->
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-AU-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Course.css">
+  <link rel="stylesheet" href="Contact.css">
+  <title>My Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/7c9723d9bd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">UNIVERCETY</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a class="nav-links" href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li class="ctn"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--navbar-->
+    
+    <!--header-->
+    <header class="abd">
+        <div class="header-content">
+            <h2>CONTACT</h2>
+        <div class="line"></div>
+        <h1>Info of University</h1> 
+       
+        </div>
+    </header>
+    <!--header-->
+ <!---------contact us content------------>
+
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120061.99199336627!2d74.43347043325275!3d19.884871418670404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc44f157804117%3A0xc4f3b95c6deb52b4!2sKopargaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1657556898206!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+        
+            <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+                <h5>padhegaon,kopargaon</h5>
+                <p>Ahmendnagar, Maharashtra, ind</p>
+            </span>
+            </div>
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5>+91 9307874563</h5>
+                <p>Monday to Saturday , 10AM to 6PM</p>
+            </span>
+        </div>
+        <br>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+               <a href="mailto:govindusare2001@gmail.com?subject=free chocolate">govindusare2001@gmail.com</a>
+                <p>Email Us Your Query</p>
+            </span>
+        </div>
+    
+    </div>
+    <div class="contact-col">
+        <form action="form handler.php" method="post">
+            <input type="text"name="name" placeholder="enter your name" required>
+            <input type="email"name="email" placeholder="enter email address" required>
+            <input type="text"name="subject" placeholder="enter your subject" required>
+            <textarea rows="8"name="message" placeholder="message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">send message</button>
+        </form>
+    </div>
+</div>
+
+</section>
+  <!--footer-->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Creater Of This Site<br>GOVIND USARE<br>Con.No:= 9307874563</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</section>
+    <!--footer close-->
+    <!--on click event-->
+
+<script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navlinks = document.querySelector('.nav-links')
+
+  menuBtn.addEventListener('click',()=>{
+  navlinks.classList.toggle('mobile-menu')
+ }) 
+</script>
+
+<!--on click event close-->
+
+</body>
+</html>
+
